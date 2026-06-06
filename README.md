@@ -1,6 +1,7 @@
 # CodeAlpha Task 1 - Web Scraping
 
-This project scrapes book data from a website using Python and BeautifulSoup.
+## Objective
+Extract book information from a website using Python and BeautifulSoup.
 
 ## Tools Used
 - Python
@@ -8,5 +9,16 @@ This project scrapes book data from a website using Python and BeautifulSoup.
 - BeautifulSoup
 - Pandas
 
+## Data Collected
+- Book Title
+- Price
+- Rating
+
 ## Output
 books_dataset.csv
+
+## How to Run
+
+pip install -r requirements.txt
+
+python web_scraper.py
